@@ -1,0 +1,24 @@
+{
+  "name": "resource-race",
+  "version": "1.0.1",
+  "description": "Module for finding the fastest resource",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhstahl/resource-race.git"
+  },
+  "keywords": [
+    "networking",
+    "fetch",
+    "resource"
+  ],
+  "author": "Ben Stahl <bhstahl@gmail.com> (http://bhstahl.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhstahl/resource-race/issues"
+  },
+  "homepage": "https://github.com/bhstahl/resource-race#readme"
+}
