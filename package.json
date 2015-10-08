@@ -1,8 +1,8 @@
 {
   "name": "resource-race",
-  "version": "1.0.1",
-  "description": "Module for finding the fastest resource",
-  "main": "index.js",
+  "version": "1.1.0",
+  "description": "Find the fastest resource amongst a group",
+  "main": "dist/race.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,9 @@
   "keywords": [
     "networking",
     "fetch",
+    "xhr",
+    "cdn",
+    "promises",
     "resource"
   ],
   "author": "Ben Stahl <bhstahl@gmail.com> (http://bhstahl.com)",
@@ -20,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/bhstahl/resource-race/issues"
   },
-  "homepage": "https://github.com/bhstahl/resource-race#readme"
+  "homepage": "https://github.com/bhstahl/resource-race#readme",
+  "devDependencies": {
+    "eslint": "^1.6.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-concat": "^2.6.0"
+  }
 }

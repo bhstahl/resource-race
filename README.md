@@ -1,10 +1,10 @@
-                     \\__.-"-._____  \\__.-"-._____
-                      '-(_)---(_)--`   '-(_)---(_)--`
-             \\__.-"-._____     \\__.-"-._____
-              '-(_)---(_)--`     '-(_)---(_)--`
+
+                    \\__.-"-._____                                    \\__.-"-._____
+     \\__.-"-._____  '-(_)---(_)--` \\__.-"-._____                .....'-(_)---(_)--`
+      '-(_)---(_)--`                '-(_)---(_)--`
 
 # Resource Race
-An npm module for finding the fastest resource (url)
+Find the fastest resource amongst a group.
 
 
 ## Installing
@@ -19,7 +19,7 @@ npm install resource-race
 ```javascript
 import race from 'resource-race';
 
-let urls = ['https://apple.com','https://google.com', 'https://amazon.com'];
+const urls = ['https://cdn1.com/img.png','https://cdn2.com/img.png', 'https://cdn3.com/img.png'];
 
 race(urls).then((winner) => {
     console.log(`${winner} won the race!`);
